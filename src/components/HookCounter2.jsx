@@ -1,4 +1,5 @@
 import React,{useState} from 'react'
+import styles from './HookCounter2.module.css'
 
 function HookCounter2() {
     const initialCount=0;
@@ -10,13 +11,13 @@ function HookCounter2() {
         }
     }
   return (
-    <div>
-        Count:{count}
+    <div className={styles.main_multi}>
         
-        <button onClick={()=>{setCount(count+1)}}>increment</button>
+        <button onClick={()=>{setCount(count+1)}}>+</button>
         <button onClick={()=>{setCount(initialCount)}}>reset</button>
-        <button onClick={()=>{setCount(count-1)}}>decrement</button>
-        <button onClick={increment5}>increment 5</button>
+        <h3 className={styles.h3}>Count:{count}</h3>
+        <button onClick={()=>{setCount(count-1)}}>-</button>
+        <button onClick={increment5}>+ 5</button>
     </div>
   )
 }
