@@ -7,6 +7,7 @@ import HookCounter4 from './components/HookCounter4'
 import HookCounterOne from './components/HookCounterOne'
 import HookMouse from './components/HookMouse'
 import MouseContainer from './components/MouseContainer'
+import DataFetching from './components/DataFetching'
 
 function App() {
 
@@ -23,7 +24,9 @@ function App() {
 
         <HookMouse/> */}
 
-        <MouseContainer/>
+        {/* <MouseContainer/> */}
+        <DataFetching/>
+    
     </>
   )
 }
