@@ -13,7 +13,7 @@ import DataFetching from './components/DataFetching'
 function App() {
 
   return (
-    <>
+    <div>
         {/* <ClassCounter/>
         <HookCounter/> 
         <HookCounter2/> 
@@ -26,9 +26,9 @@ function App() {
         <HookMouse/> */}
 
         {/* <MouseContainer/> */}
-        <DataFetching/>
+        <DataFetching />
     
-    </>
+    </div>
   )
 }
 
