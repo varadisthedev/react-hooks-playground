@@ -1,4 +1,5 @@
-import { useState } from 'react'
+import React from 'react';
+import { useState,useEffect } from 'react'
 import ClassCounter from './components/ClassCounter'
 import HookCounter from './components/HookCounter'
 import HookCounter2 from './components/HookCounter2'
