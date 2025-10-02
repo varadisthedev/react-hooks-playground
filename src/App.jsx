@@ -9,6 +9,9 @@ import HookCounterOne from './components/HookCounterOne'
 import HookMouse from './components/HookMouse'
 import MouseContainer from './components/MouseContainer'
 import DataFetching from './components/DataFetching'
+import MovieEmbed from './components/Movie';
+import Counter1 from './components/Counter1';
+import ReduxLikeCounter from './components/ReduxLikeCounter';
 
 function App() {
 
@@ -26,8 +29,11 @@ function App() {
         <HookMouse/> */}
 
         {/* <MouseContainer/> */}
-        <DataFetching />
-    
+        {/* <DataFetching /> */}
+          {/* <MovieEmbed/> */}
+          {/* <DataFetching/> */}
+          <Counter1/>
+          <ReduxLikeCounter/>
     </div>
   )
 }
