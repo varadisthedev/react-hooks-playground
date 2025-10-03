@@ -12,6 +12,8 @@ import DataFetching from './components/DataFetching'
 import MovieEmbed from './components/Movie';
 import Counter1 from './components/Counter1';
 import ReduxLikeCounter from './components/ReduxLikeCounter';
+import ComplexCalculations from './components/ComplexCalculations';
+import Parent from './components/Parent'
 
 function App() {
 
@@ -32,8 +34,11 @@ function App() {
         {/* <DataFetching /> */}
           {/* <MovieEmbed/> */}
           {/* <DataFetching/> */}
-          <Counter1/>
-          <ReduxLikeCounter/>
+          {/* <Counter1/>
+          <ReduxLikeCounter/> */}
+
+          <ComplexCalculations/>
+          <Parent/>
     </div>
   )
 }
